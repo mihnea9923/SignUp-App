@@ -1,0 +1,15 @@
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\EmailSender.exe
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\EmailSender.dll
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\EmailSender.deps.json
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\EmailSender.runtimeconfig.json
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\EmailSender.pdb
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\Microsoft.Extensions.Configuration.dll
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\Microsoft.Extensions.Primitives.dll
+C:\Users\menta\source\repos\DevOps\SignUpApp\EmailSender\EmailSender\bin\Release\net5.0\publish\RabbitMQ.Client.dll

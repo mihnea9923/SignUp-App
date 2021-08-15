@@ -1,0 +1,64 @@
+version : '3'
+
+services:
+  frontend:
+    image: httpd
+    ports:
+      - 8081:80
+    volumes:
+      - .\html1:/usr/local/apache2/htdocs/
+  
+  mssql-server:
+    image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+    ports:
+      ["1433:1433"]
+    environment:
+      ACCEPT_EULA : "Y"
+      SA_PASSWORD : "Docker2021"
+      MSSQL_PID : Express
+    volumes:
+      - singupdbvolume:/var/lib/mysql
+
+         
+  api:
+    build: "API/API"
+    environment:
+      DatabaseServer : "mssql-server"
+      DatabasePort : "1433"
+      DatabaseUser : "SA"
+      DatabasePassword : "Docker2021"
+      DatabaseName : "signupdb"
+    ports:
+      ["80"]
+    depends_on:
+      - mssql-server
+
+  emailsender:
+    build: EmailSender/EmailSender
+    environment:
+      gmailUsername: "myemail@gmail.com"
+      gmailPassword: "mypassword"
+    depends_on:
+      - rabbitmq
+  
+  rabbitmq:
+    image: rabbitmq:3.9-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  nginx-lb:
+    build : nginx
+    ports:
+      - 8080:8080
+
+
+volumes:
+  singupdbvolume:
+    driver: local
+
+
+
+
+
