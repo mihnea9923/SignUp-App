@@ -11,7 +11,7 @@ The components of this application are:
 
 Each component is represented as a docker container.
 
-The flow is: 1)user fills in the data and presses "Signup" button which sends a http request to the nginx load balancer, 2)the nginx load balancer forwards the request to one of the api containers, 3)the api adds the account into the database and publishes a message containing user email into a rabbitmq queue, 4)the .net console app subscribes to that queue and for each message will send a confirmation email back to the user (using gmail smtp server).
+The flow is: 1)user fills in the data and presses "Signup" button which sends a http request to the nginx load balancer, 2)the nginx load balancer forwards the request to one of the api containers, 3)the api adds the account into the database and publishes a message containing user email into a rabbitmq queue, 4)the .net console app subscribes to that queue and for each received message will send a confirmation email back to the user (using gmail smtp server).
 
 
 
